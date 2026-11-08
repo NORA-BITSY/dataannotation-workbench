@@ -6,6 +6,9 @@ A private research and practice workspace for understanding DataAnnotation.tech,
 
 | If you want to | Open |
 | --- | --- |
+| Choose what to apply for and what to study first | [Apply-first decision](docs/roles/application-decision-2026-11-07.md) · [Study start](study/) |
+| Rehearse the assessment setup and allowed-tool checks | [Assessment-day toolkit](study/toolkit/assessment-day.md) |
+| Compare time to paid work and cleared cash | [Earnings model](docs/research/earnings-model.md) · [First paid week](docs/research/first-paid-week.md) |
 | Understand the company, selection process and day-to-day work | [Contributor and pipeline findings](docs/research/contributor-and-pipeline-findings.md) |
 | Compare all 133 roles and 14 families in the captured snapshot | [Role register](docs/roles/role-register.md) · [Spreadsheet](data/roles/company-and-role-dataset.xlsx) · [Machine-readable role data](data/roles/role_register.jsonl) |
 | Decide which track fits your experience | [Role fit and assessment preparation](docs/roles/role-fit-and-assessment-prep.md) |
@@ -15,7 +18,7 @@ A private research and practice workspace for understanding DataAnnotation.tech,
 | See the next research and study build | [Earnings and specialist readiness work order](docs/work-orders/earnings-and-specialist-readiness.md) |
 | Audit a claim or revisit the research design | [Source ledger](docs/research/source-ledger.md) · [Work orders](docs/work-orders/) |
 
-The study pack has **76 standalone drills, eight timed mocks, and 24 recall cards**. The mocks contain another 24 scored tasks. Generalist, Coding, DevOps and Finance/FP&A each have two mocks. Six additional drills sample Data Science and ML evaluation. Open the answer key after attempting the exercise.
+The study pack has **76 standalone drills, eight timed mocks, and 24 recall cards**. The mocks contain another 24 scored tasks. Generalist, Coding, DevOps and Finance/FP&A each have two mocks. Six additional drills sample Data Science and ML evaluation. The next work order added eight fresh diagnostic forms and two applied labs. Open the answer key after attempting the exercise.
 
 ## Repository structure
 
@@ -24,6 +27,7 @@ The study pack has **76 standalone drills, eight timed mocks, and 24 recall card
 - `study/` keeps learner-facing questions separate from solutions and scoring rubrics.
 - `examples/boatable/` includes twelve original fictional service-desk cases, clean held-out inputs, evaluator-only records, and a deterministic Python scorer.
 - `docs/work-orders/` preserves the scope and completion criteria for completed and planned research passes.
+- `examples/finance-forecast/` and `examples/technical-release/` supply original work samples.
 - `scripts/verify.py` checks the cross-file counts, exercise IDs and score totals, runs the practice Python examples, and regenerates the scorer outputs for byte comparison.
 
 ## Verify locally

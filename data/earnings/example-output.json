@@ -1,0 +1,235 @@
+{
+  "kind": "hypothetical, no probabilities or projected assignment access",
+  "scenarios": [
+    {
+      "name": "No work available",
+      "runs": [
+        {
+          "horizon_days": 14,
+          "milestones_within_horizon": {
+            "assessment": 4,
+            "approval": null,
+            "first_available": null,
+            "first_completed": null,
+            "first_modeled_paid_hours": null,
+            "first_projected_cleared_payment": null
+          },
+          "time_hours": {
+            "qualification": "1.25",
+            "queue": "1.00",
+            "study": "4.50"
+          },
+          "paid_hours": "0.00",
+          "total_hours": "6.75",
+          "paid_share": "0.00",
+          "hypothetical_earned_usd": "0.00",
+          "approved_earnings_usd": null,
+          "projected_cash_cleared_usd": "0.00",
+          "actual_cash_received_usd": null,
+          "direct_costs_usd": "0.00",
+          "effective_pre_tax_usd_per_total_hour": "0.00"
+        },
+        {
+          "horizon_days": 30,
+          "milestones_within_horizon": {
+            "assessment": 4,
+            "approval": null,
+            "first_available": null,
+            "first_completed": null,
+            "first_modeled_paid_hours": null,
+            "first_projected_cleared_payment": null
+          },
+          "time_hours": {
+            "qualification": "1.25",
+            "queue": "2.60",
+            "study": "4.50"
+          },
+          "paid_hours": "0.00",
+          "total_hours": "8.35",
+          "paid_share": "0.00",
+          "hypothetical_earned_usd": "0.00",
+          "approved_earnings_usd": null,
+          "projected_cash_cleared_usd": "0.00",
+          "actual_cash_received_usd": null,
+          "direct_costs_usd": "0.00",
+          "effective_pre_tax_usd_per_total_hour": "0.00"
+        }
+      ]
+    },
+    {
+      "name": "Earlier start",
+      "runs": [
+        {
+          "horizon_days": 14,
+          "milestones_within_horizon": {
+            "assessment": 4,
+            "approval": 7,
+            "first_available": 8,
+            "first_completed": 8,
+            "first_modeled_paid_hours": 8,
+            "first_projected_cleared_payment": null
+          },
+          "time_hours": {
+            "onboarding": "0.50",
+            "paid_task": "7.00",
+            "qualification": "1.25",
+            "queue": "0.80",
+            "study": "4.50"
+          },
+          "paid_hours": "7.00",
+          "total_hours": "14.05",
+          "paid_share": "49.82",
+          "hypothetical_earned_usd": "315.00",
+          "approved_earnings_usd": null,
+          "projected_cash_cleared_usd": "0.00",
+          "actual_cash_received_usd": null,
+          "direct_costs_usd": "0.00",
+          "effective_pre_tax_usd_per_total_hour": "22.42"
+        },
+        {
+          "horizon_days": 30,
+          "milestones_within_horizon": {
+            "assessment": 4,
+            "approval": 7,
+            "first_available": 8,
+            "first_completed": 8,
+            "first_modeled_paid_hours": 8,
+            "first_projected_cleared_payment": 15
+          },
+          "time_hours": {
+            "onboarding": "0.50",
+            "paid_task": "23.00",
+            "qualification": "1.25",
+            "queue": "2.40",
+            "study": "4.50"
+          },
+          "paid_hours": "23.00",
+          "total_hours": "31.65",
+          "paid_share": "72.67",
+          "hypothetical_earned_usd": "1035.00",
+          "approved_earnings_usd": null,
+          "projected_cash_cleared_usd": "720.00",
+          "actual_cash_received_usd": null,
+          "direct_costs_usd": "0.00",
+          "effective_pre_tax_usd_per_total_hour": "32.70"
+        }
+      ]
+    },
+    {
+      "name": "Later specialist start",
+      "runs": [
+        {
+          "horizon_days": 14,
+          "milestones_within_horizon": {
+            "assessment": 8,
+            "approval": 12,
+            "first_available": null,
+            "first_completed": null,
+            "first_modeled_paid_hours": null,
+            "first_projected_cleared_payment": null
+          },
+          "time_hours": {
+            "onboarding": "0.50",
+            "qualification": "1.50",
+            "queue": "0.30",
+            "study": "10.50"
+          },
+          "paid_hours": "0.00",
+          "total_hours": "12.80",
+          "paid_share": "0.00",
+          "hypothetical_earned_usd": "0.00",
+          "approved_earnings_usd": null,
+          "projected_cash_cleared_usd": "0.00",
+          "actual_cash_received_usd": null,
+          "direct_costs_usd": "0.00",
+          "effective_pre_tax_usd_per_total_hour": "0.00"
+        },
+        {
+          "horizon_days": 30,
+          "milestones_within_horizon": {
+            "assessment": 8,
+            "approval": 12,
+            "first_available": 15,
+            "first_completed": 15,
+            "first_modeled_paid_hours": 15,
+            "first_projected_cleared_payment": 22
+          },
+          "time_hours": {
+            "onboarding": "0.50",
+            "paid_task": "16.00",
+            "qualification": "1.50",
+            "queue": "1.90",
+            "study": "10.50"
+          },
+          "paid_hours": "16.00",
+          "total_hours": "30.40",
+          "paid_share": "52.63",
+          "hypothetical_earned_usd": "1200.00",
+          "approved_earnings_usd": null,
+          "projected_cash_cleared_usd": "675.00",
+          "actual_cash_received_usd": null,
+          "direct_costs_usd": "0.00",
+          "effective_pre_tax_usd_per_total_hour": "39.47"
+        }
+      ]
+    },
+    {
+      "name": "Later specialist delayed four more days",
+      "runs": [
+        {
+          "horizon_days": 14,
+          "milestones_within_horizon": {
+            "assessment": 8,
+            "approval": 12,
+            "first_available": null,
+            "first_completed": null,
+            "first_modeled_paid_hours": null,
+            "first_projected_cleared_payment": null
+          },
+          "time_hours": {
+            "onboarding": "0.50",
+            "qualification": "1.50",
+            "queue": "0.30",
+            "study": "10.50"
+          },
+          "paid_hours": "0.00",
+          "total_hours": "12.80",
+          "paid_share": "0.00",
+          "hypothetical_earned_usd": "0.00",
+          "approved_earnings_usd": null,
+          "projected_cash_cleared_usd": "0.00",
+          "actual_cash_received_usd": null,
+          "direct_costs_usd": "0.00",
+          "effective_pre_tax_usd_per_total_hour": "0.00"
+        },
+        {
+          "horizon_days": 30,
+          "milestones_within_horizon": {
+            "assessment": 8,
+            "approval": 12,
+            "first_available": 19,
+            "first_completed": 19,
+            "first_modeled_paid_hours": 19,
+            "first_projected_cleared_payment": 26
+          },
+          "time_hours": {
+            "onboarding": "0.50",
+            "paid_task": "12.00",
+            "qualification": "1.50",
+            "queue": "1.90",
+            "study": "10.50"
+          },
+          "paid_hours": "12.00",
+          "total_hours": "26.40",
+          "paid_share": "45.45",
+          "hypothetical_earned_usd": "900.00",
+          "approved_earnings_usd": null,
+          "projected_cash_cleared_usd": "375.00",
+          "actual_cash_received_usd": null,
+          "direct_costs_usd": "0.00",
+          "effective_pre_tax_usd_per_total_hour": "34.09"
+        }
+      ]
+    }
+  ]
+}

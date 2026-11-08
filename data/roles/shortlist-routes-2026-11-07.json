@@ -1,0 +1,138 @@
+{
+  "checked_on_local": "2026-11-07",
+  "account_status": "Sign-in required in available browser; no assessment options observed",
+  "public_apply_links": [
+    {
+      "role_id": "fpa-analyst",
+      "title": "FP&A Analyst",
+      "listing_url": "https://www.dataannotation.tech/job-board/fpa-analyst",
+      "advertised_rate_label": "125+",
+      "listing_location": "Remote",
+      "checked_apply_url": "https://app.dataannotation.tech/worker_signup?job_board_role=fpa-analyst&projects=ACC_SA&role_title=FP%26A+Analyst&utm_campaign=ai_training_jobs&utm_content=role_bottom_fpa-analyst&utm_medium=web&utm_source=webflow_jobby&worker_src=ai_jobs",
+      "public_projects_parameter": "ACC_SA",
+      "previous_public_projects_parameter": "ACC_SA",
+      "confirmed_account_track": null,
+      "confirmed_project_rate": null
+    },
+    {
+      "role_id": "finance-expert",
+      "title": "Finance Expert",
+      "listing_url": "https://www.dataannotation.tech/job-board/finance-expert",
+      "advertised_rate_label": "125+",
+      "listing_location": "Remote",
+      "checked_apply_url": "https://app.dataannotation.tech/worker_signup?job_board_role=finance-expert&projects=FIN_SA&role_title=Finance+Expert&utm_campaign=ai_training_jobs&utm_content=role_bottom_finance-expert&utm_medium=web&utm_source=webflow_jobby&worker_src=ai_jobs",
+      "public_projects_parameter": "FIN_SA",
+      "previous_public_projects_parameter": "FIN_SA",
+      "confirmed_account_track": null,
+      "confirmed_project_rate": null
+    },
+    {
+      "role_id": "devops-engineer",
+      "title": "DevOps Engineer",
+      "listing_url": "https://www.dataannotation.tech/job-board/devops-engineer",
+      "advertised_rate_label": "150+",
+      "listing_location": "Remote",
+      "checked_apply_url": "https://app.dataannotation.tech/worker_signup?job_board_role=devops-engineer&projects=PROG_SA&role_title=DevOps+Engineer&utm_campaign=ai_training_jobs&utm_content=role_bottom_devops-engineer&utm_medium=web&utm_source=webflow_jobby&worker_src=ai_jobs",
+      "public_projects_parameter": "PROG_SA",
+      "previous_public_projects_parameter": "PROG_SA",
+      "confirmed_account_track": null,
+      "confirmed_project_rate": null
+    },
+    {
+      "role_id": "backend-engineer",
+      "title": "Backend Engineer",
+      "listing_url": "https://www.dataannotation.tech/job-board/backend-engineer",
+      "advertised_rate_label": "150+",
+      "listing_location": "Remote",
+      "checked_apply_url": "https://app.dataannotation.tech/worker_signup?job_board_role=backend-engineer&projects=PROG_SA&role_title=Backend+Engineer&utm_campaign=ai_training_jobs&utm_content=role_bottom_backend-engineer&utm_medium=web&utm_source=webflow_jobby&worker_src=ai_jobs",
+      "public_projects_parameter": "PROG_SA",
+      "previous_public_projects_parameter": "PROG_SA",
+      "confirmed_account_track": null,
+      "confirmed_project_rate": null
+    },
+    {
+      "role_id": "software-engineer",
+      "title": "Software Engineer",
+      "listing_url": "https://www.dataannotation.tech/job-board/software-engineer",
+      "advertised_rate_label": "150+",
+      "listing_location": "Remote",
+      "checked_apply_url": "https://app.dataannotation.tech/worker_signup?job_board_role=software-engineer&projects=PROG_SA&role_title=Software+Engineer&utm_campaign=ai_training_jobs&utm_content=role_bottom_software-engineer&utm_medium=web&utm_source=webflow_jobby&worker_src=ai_jobs",
+      "public_projects_parameter": "PROG_SA",
+      "previous_public_projects_parameter": "PROG_SA",
+      "confirmed_account_track": null,
+      "confirmed_project_rate": null
+    },
+    {
+      "role_id": "data-scientist",
+      "title": "Data Scientist",
+      "listing_url": "https://www.dataannotation.tech/job-board/data-scientist",
+      "advertised_rate_label": "150+",
+      "listing_location": "Remote",
+      "checked_apply_url": "https://app.dataannotation.tech/worker_signup?job_board_role=data-scientist&projects=DS_SA&role_title=Data+Scientist&utm_campaign=ai_training_jobs&utm_content=role_bottom_data-scientist&utm_medium=web&utm_source=webflow_jobby&worker_src=ai_jobs",
+      "public_projects_parameter": "DS_SA",
+      "previous_public_projects_parameter": "DS_SA",
+      "confirmed_account_track": null,
+      "confirmed_project_rate": null
+    },
+    {
+      "role_id": "machine-learning-engineer",
+      "title": "Machine Learning Engineer",
+      "listing_url": "https://www.dataannotation.tech/job-board/machine-learning-engineer",
+      "advertised_rate_label": "150+",
+      "listing_location": "Remote",
+      "checked_apply_url": "https://app.dataannotation.tech/worker_signup?job_board_role=machine-learning-engineer&projects=PROG_SA&role_title=Machine+Learning+Engineer&utm_campaign=ai_training_jobs&utm_content=role_bottom_machine-learning-engineer&utm_medium=web&utm_source=webflow_jobby&worker_src=ai_jobs",
+      "public_projects_parameter": "PROG_SA",
+      "previous_public_projects_parameter": "PROG_SA",
+      "confirmed_account_track": null,
+      "confirmed_project_rate": null
+    },
+    {
+      "role_id": "generalist",
+      "title": "Generalist",
+      "listing_url": "https://www.dataannotation.tech/job-board/generalist",
+      "advertised_rate_label": "50",
+      "listing_location": "Remote",
+      "checked_apply_url": "https://app.dataannotation.tech/worker_signup?job_board_role=generalist&role_title=Generalist&utm_campaign=ai_training_jobs&utm_content=role_bottom_generalist&utm_medium=web&utm_source=webflow_jobby&worker_src=ai_jobs",
+      "public_projects_parameter": null,
+      "previous_public_projects_parameter": null,
+      "confirmed_account_track": null,
+      "confirmed_project_rate": null
+    },
+    {
+      "role_id": "treasury-analyst",
+      "title": "Treasury Analyst",
+      "listing_url": "https://www.dataannotation.tech/job-board/treasury-analyst",
+      "advertised_rate_label": "125+",
+      "listing_location": "Remote",
+      "checked_apply_url": "https://app.dataannotation.tech/worker_signup?job_board_role=treasury-analyst&projects=FIN_SA&role_title=Treasury+Analyst&utm_campaign=ai_training_jobs&utm_content=role_bottom_treasury-analyst&utm_medium=web&utm_source=webflow_jobby&worker_src=ai_jobs",
+      "public_projects_parameter": "FIN_SA",
+      "previous_public_projects_parameter": "FIN_SA",
+      "confirmed_account_track": null,
+      "confirmed_project_rate": null
+    },
+    {
+      "role_id": "credit-analyst",
+      "title": "Credit Analyst",
+      "listing_url": "https://www.dataannotation.tech/job-board/credit-analyst",
+      "advertised_rate_label": "125+",
+      "listing_location": "Remote",
+      "checked_apply_url": "https://app.dataannotation.tech/worker_signup?job_board_role=credit-analyst&projects=FIN_SA&role_title=Credit+Analyst&utm_campaign=ai_training_jobs&utm_content=role_bottom_credit-analyst&utm_medium=web&utm_source=webflow_jobby&worker_src=ai_jobs",
+      "public_projects_parameter": "FIN_SA",
+      "previous_public_projects_parameter": "FIN_SA",
+      "confirmed_account_track": null,
+      "confirmed_project_rate": null
+    },
+    {
+      "role_id": "accountant",
+      "title": "Accountant",
+      "listing_url": "https://www.dataannotation.tech/job-board/accountant",
+      "advertised_rate_label": "125+",
+      "listing_location": "Remote",
+      "checked_apply_url": "https://app.dataannotation.tech/worker_signup?job_board_role=accountant&projects=ACC_SA&role_title=Accountant&utm_campaign=ai_training_jobs&utm_content=role_bottom_accountant&utm_medium=web&utm_source=webflow_jobby&worker_src=ai_jobs",
+      "public_projects_parameter": "ACC_SA",
+      "previous_public_projects_parameter": "ACC_SA",
+      "confirmed_account_track": null,
+      "confirmed_project_rate": null
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "checked_on_local": "2026-11-07",
+  "source": "https://www.dataannotation.tech/",
+  "baseline": "data/roles/role_register.jsonl",
+  "method": "matched displayed title, family and advertised rate label",
+  "counts": {
+    "baseline": 133,
+    "public_board": 133
+  },
+  "added": [],
+  "removed": [],
+  "changed_family_or_advertised_rate": [],
+  "coverage": "Full board identity and displayed rate labels. Eleven shortlisted individual postings and Apply links were rechecked; other detail-page requirements were not reverified.",
+  "shortlist_route_changes": []
+}

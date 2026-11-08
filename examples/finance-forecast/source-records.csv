@@ -1,0 +1,22 @@
+record_id,status,period,metric,value,source
+B01,authoritative,oct_budget,units,900,approved operating plan
+B02,authoritative,oct_budget,price_per_unit,85,approved operating plan
+B03,authoritative,oct_budget,variable_per_unit,47,approved operating plan
+B04,authoritative,oct_budget,fixed,27000,approved operating plan
+A01,authoritative,oct_actual,units,840,October close
+A02,authoritative,oct_actual,price_per_unit,90,October close
+A03,authoritative,oct_actual,variable_per_unit,49,October close
+A04,authoritative,oct_actual,fixed,28000,October close
+P01,authoritative,nov_base,units,850,approved forecast assumptions
+P02,authoritative,nov_downside,units,765,approved forecast assumptions
+P03,authoritative,nov_both,price_per_unit,90,approved forecast assumptions
+P04,authoritative,nov_both,variable_per_unit,49,approved forecast assumptions
+P05,authoritative,nov_both,fixed,28000,approved forecast assumptions
+C01,authoritative,nov_both,opening_cash,22000,bank reconciliation
+C02,authoritative,nov_base,collections,68000,settlement schedule
+C03,authoritative,nov_downside,collections,62000,settlement schedule
+C04,authoritative,nov_both,cash_operating_payments,61000,disbursement schedule
+C05,authoritative,nov_both,capex,14000,revised approved authorization
+C06,authoritative,nov_both,minimum_cash,18000,management minimum
+C07,superseded,nov_both,capex,11000,draft estimate before approved amendment
+C08,outside_period,dec,collections,5000,unsettled until December and excluded from C02 and C03

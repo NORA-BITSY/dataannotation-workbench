@@ -1,0 +1,109 @@
+exercise_id,title,track,skill,difficulty,minutes,known_trap,packet
+G01,Compare replies,Generalist,Evidence comparison,foundation,8,Treating tentative as confirmed,study/workbook.md
+G02,Rewrite a policy response,Generalist,Constrained rewrite,foundation,8,Promising a refund before review,study/workbook.md
+G03,Source conflict,Generalist,Source hierarchy,foundation,10,Billing unapproved work,study/workbook.md
+G04,Format and arithmetic,Generalist,Exact format and arithmetic,foundation,8,Including canceled units or an extra bullet,study/workbook.md
+G05,Materiality and both-bad judgment,Generalist,Materiality,foundation,10,Choosing a polished answer with a critical error,study/workbook.md
+G06,Weak causal claim,Generalist,Causal reasoning,foundation,10,Attributing simultaneous changes to one cause,study/workbook.md
+G07,Latest record and scope,Generalist,Chronology and scope,foundation,9,Using the latest record for the wrong unit,study/workbook.md
+G08,Ask a focused question,Generalist,Clarification,foundation,8,Confirming capacity before identifying the delivery,study/workbook.md
+G09,Percent versus percentage points,Generalist,Rate interpretation,foundation,8,Mixing percent and percentage points,study/workbook.md
+G10,Confident claims from incomplete evidence,Generalist,Evidence limits,foundation,10,Equating an absent signed record with unauthorized work,study/workbook.md
+C01,Stable deduplication,Coding / Backend,Sets and order,foundation,12,Dropping original order or case sensitivity,study/workbook.md
+C02,Half-open intervals,Coding / Backend,Intervals,applied,20,Merging touching intervals or shortening nested intervals,study/workbook.md
+C03,Top customer,Coding / Backend,Aggregation and tie-breaks,applied,15,Initializing best total to zero with negative totals,study/workbook.md
+C04,Find the boundary bug,Coding / Backend,Binary search and boundaries,foundation,10,Excluding the lower bound or including the upper,study/workbook.md
+C05,Longest run without repeats,Coding / Backend,Sliding window,applied,20,Moving the left boundary backward,study/workbook.md
+C06,Incorrect mutable default,Coding / Backend,Python defaults,foundation,10,Sharing a list across calls or replacing a supplied empty list,study/workbook.md
+C07,SQL grain and zero rows,Coding / Backend,SQL grain,applied,17,Multiplying paid orders in an item join,study/workbook.md
+C08,HTTP retry semantics,Coding / Backend,Idempotency,applied,15,Failing between provider success and durable completion,study/workbook.md
+C09,Grouping and tests,Coding / Backend,Streaming sets,applied,16,Ordering by first rather than second appearance,study/workbook.md
+C10,Validate a proposed fix,Coding / Backend,Specification review,foundation,12,Clamping each refund instead of the total,study/workbook.md
+D01,Image identity and rollback,DevOps,Artifact identity,applied,13,Rolling back a mutable tag,study/workbook.md
+D02,Database compatibility,DevOps,Schema compatibility,applied,15,Removing the old column during a rolling deploy,study/workbook.md
+D03,Readiness and traffic,DevOps,Readiness and liveness,foundation,12,Routing on TCP success or restarting on shared DB failure,study/workbook.md
+D04,Secret exposure,DevOps,Incident response,applied,13,Deleting logs without rotating the exposed credential,study/workbook.md
+D05,State and concurrent changes,DevOps,Infrastructure state,foundation,12,Applying from divergent local state,study/workbook.md
+D06,Separate signal from hypothesis,DevOps,Observability,foundation,12,Declaring causation from correlated metrics,study/workbook.md
+D07,Permission scope,DevOps,Least privilege,foundation,11,Granting project-wide Owner to a single-VM worker,study/workbook.md
+D08,Queue backlog and safe recovery,DevOps,Queue recovery,applied,14,Acknowledging before the result is durable,study/workbook.md
+F01,Operating-profit bridge,Finance / FP&A,Operating bridge,applied,16,Mixing contribution conventions and failing to tie,study/workbook.md
+F02,Working capital and cash,Finance / FP&A,Cash flow,applied,13,Treating debt principal as an operating item,study/workbook.md
+F03,DCF and terminal value,Finance / FP&A,Discounted cash flow,applied,20,Using an undiscounted terminal value,study/workbook.md
+F04,"Rent roll, NOI and cash",Finance / FP&A,NOI and cash,foundation,12,Deducting debt service in the defined NOI,study/workbook.md
+F05,Credit headroom,Finance / FP&A,Coverage and headroom,applied,13,Using the wrong denominator for allowable decline,study/workbook.md
+F06,Reconcile two reports,Finance / FP&A,Reporting reconciliation,foundation,12,Changing the GL to match a normalized view,study/workbook.md
+F07,Run-rate forecast,Finance / FP&A,Run-rate forecasting,applied,16,Applying a downside to completed actuals,study/workbook.md
+F08,Cash timing and liquidity,Finance / FP&A,Liquidity planning,applied,15,Ignoring a negative cash balance before the second month,study/workbook.md
+F09,Cohort mix and weighting,Finance / FP&A,Weighted rates,applied,13,Averaging rates with unequal denominators,study/workbook.md
+F10,Three-statement effects,Finance / FP&A,Linked statements,applied,15,Treating depreciation as a cash expense,study/workbook.md
+MG1,Evidence and verdict,Generalist,Source and billing verdict,mock,15,Accepting an unsupported date or unapproved charge,study/workbook.md
+MG2,Audit a summary,Generalist,Quantified summary,mock,18,Mixing sites or attributing cause without evidence,study/workbook.md
+MG3,Follow constrained instructions,Generalist,Constrained customer reply,mock,17,Missing a required sentence or guaranteeing supply,study/workbook.md
+MC1,Adjacent log events,Coding / Backend,Event history,mock,20,Ignoring inclusive timing or account-specific history,study/workbook.md
+MC2,Inventory consumption,Coding / Backend,State and invariants,mock,22,Consuming a partially fulfilled or rejected request,study/workbook.md
+MC3,Debug and test,Coding / Backend,Counterexamples and order,mock,18,Dropping the cutoff boundary or relying on set iteration,study/workbook.md
+MD1,Production release,DevOps,Rolling release,mock,24,Deploying with an incompatible schema and TCP-only readiness,study/workbook.md
+MD2,Delayed incident,DevOps,Queue crash recovery,mock,20,Sending again after provider success but before durable recording,study/workbook.md
+MD3,Permission and secret review,DevOps,Permissions and secrets,mock,11,Granting broad admin or leaving exposed credentials active,study/workbook.md
+MF1,FP&A bridge,Finance / FP&A,Variance bridge,mock,24,Inventing why volume declined,study/workbook.md
+MF2,Cash and credit,Finance / FP&A,Cash coverage,mock,21,Using EBITDA rather than the defined cash measure,study/workbook.md
+MF3,Valuation review,Finance / FP&A,DCF review,mock,15,Using current instead of next cash flow and skipping discounting,study/workbook.md
+G11,Effective date,Generalist,Effective date,foundation,8,Using delivery date rather than order date,study/workbook.md
+G12,Valid tie,Generalist,Valid ties,foundation,8,Inventing a material difference,study/workbook.md
+G13,Separate extraction from inference,Generalist,Structured extraction,foundation,10,Confusing reported and verified payment,study/workbook.md
+G14,Check a citation’s claim,Generalist,Fact-checking,foundation,12,"Changing median, sample or outcome in a citation",study/workbook.md
+G15,Write a discriminating prompt,Generalist,Prompt and rubric design,foundation,12,Conflating inspection approval with repair approval,study/workbook.md
+G16,Unsupported precision,Generalist,Uncertainty,foundation,9,Inventing a date from an unanchored range,study/workbook.md
+G17,Conflicting sources and escalation,Generalist,Authorization and escalation,foundation,12,Treating verbal impressions as written approval,study/workbook.md
+G18,Compare rubric weights,Generalist,Rubric scoring,foundation,10,Ignoring a disqualification gate,study/workbook.md
+C11,Rolling sums,Coding / Backend,Rolling aggregation,applied,15,Re-summing every window or accepting k=0,study/workbook.md
+C12,Find first occurrence by binary search,Coding / Backend,Binary search,applied,15,Returning any match rather than the first,study/workbook.md
+C13,Shortest route through dependencies,Coding / Backend,Graph traversal,applied,20,Using depth-first order as proof of shortest path,study/workbook.md
+C14,Deterministic top-k selection,Coding / Backend,Sorting and tie-breaks,applied,15,Choosing an arbitrary tied ID at the cutoff,study/workbook.md
+C15,SQL latest record,Coding / Backend,SQL latest row,applied,18,Joining on a max timestamp without breaking ties,study/workbook.md
+C16,Lost update,Coding / Backend,Transactions,applied,15,Confusing concurrent increments and duplicate retries,study/workbook.md
+C17,Parse and classify,Coding / Backend,Parsing,applied,15,Accepting extra fields or non-ASCII integer syntax,study/workbook.md
+C18,Validate before changing state,Coding / Backend,Atomic changes,applied,15,Mutating before the complete batch has passed,study/workbook.md
+D09,Unexpected cache behavior,DevOps,Cache isolation,foundation,12,Serving shared responses for authenticated routes,study/workbook.md
+D10,Health of a worker,DevOps,Worker monitoring,foundation,12,Treating a heartbeat as evidence of completed work,study/workbook.md
+D11,Restore test,DevOps,Disaster recovery,applied,14,Confusing backup success with recovery objectives,study/workbook.md
+D12,Change blast radius,DevOps,Environment isolation,applied,14,Allowing staging identity to consume production jobs,study/workbook.md
+D13,Artifact trust,DevOps,Artifact provenance,applied,14,Building from an unpinned branch during deploy,study/workbook.md
+D14,Safe infrastructure change,DevOps,Cutover,applied,16,Retiring the old endpoint after one TTL regardless of evidence,study/workbook.md
+D15,Capacity versus correctness,DevOps,Rate limits,foundation,12,Adding workers when the provider is already throttling,study/workbook.md
+D16,Secrets across revisions,DevOps,Secret rotation,applied,13,Revoking the credential before the overlap ends,study/workbook.md
+F11,Price sensitivity with mix,Finance / FP&A,Product mix,applied,15,Using revenue rather than contribution change,study/workbook.md
+F12,Break-even and operating leverage,Finance / FP&A,Operating leverage,applied,13,Assuming profit moves by the volume percentage,study/workbook.md
+F13,AR and accruals,Finance / FP&A,Receivables roll-forward,foundation,12,Treating a write-off as a collection,study/workbook.md
+F14,Gross margin denominator,Finance / FP&A,Margin and markup,foundation,12,Dividing by cost when calculating margin,study/workbook.md
+F15,Credit and concentration,Finance / FP&A,Credit concentration,applied,15,Claiming coverage after losing a material cash contributor,study/workbook.md
+F16,Capital project payback versus NPV,Finance / FP&A,Capital budgeting,applied,16,Confusing interpolated payback with year-end cash timing,study/workbook.md
+F17,Forecast audit and sensitivity,Finance / FP&A,Driver sensitivity,applied,16,Applying churn to new customers,study/workbook.md
+F18,"Capex, maintenance and free cash flow",Finance / FP&A,Free cash flow,applied,15,Leaving out growth capex,study/workbook.md
+ML01,Leakage by time,Data / ML,Temporal leakage,foundation,10,Using a feature unavailable at prediction time,study/workbook.md
+ML02,Grouped evaluation,Data / ML,Grouped splits,foundation,10,Putting paraphrases across development and test,study/workbook.md
+ML03,Confusion matrix,Data / ML,Classification metrics,foundation,12,Letting high accuracy hide zero detection,study/workbook.md
+ML04,Threshold and business costs,Data / ML,Threshold selection,foundation,12,Tuning on the final test or ignoring unequal error costs,study/workbook.md
+ML05,Compare systems fairly,Data / ML,Controlled comparison,applied,13,Comparing different sets or revising from test failures,study/workbook.md
+ML06,Model performance by slice,Data / ML,Performance slices,foundation,12,Letting aggregate results hide a high-risk failure,study/workbook.md
+MG21,Apply a rule hierarchy,Generalist,Rule hierarchy,mock,18,Applying the customer-cancellation rule to an operator cancellation,study/workbook.md
+MG22,Edit a claim with multiple denominators,Generalist,Reporting denominators,mock,18,Generalizing responders to all enrollees and claiming causation,study/workbook.md
+MG23,Preserve structured constraints,Generalist,Structured constraints,mock,19,Using the old ticket status or wrong row order,study/workbook.md
+MC21,Count contiguous totals,Coding / Backend,Prefix sums,mock,25,Using monotonic window logic with negatives,study/workbook.md
+MC22,Reachability with layered output,Coding / Backend,Layered reachability,mock,22,Duplicating discoveries or mixing levels,study/workbook.md
+MC23,Reviewer’s counterexample,Coding / Backend,Patch review,mock,18,Sorting by magnitude and mutating the input,study/workbook.md
+MD21,State safety before a live change,DevOps,Infrastructure change review,mock,20,Applying a destructive plan before reconciling state identity,study/workbook.md
+MD22,Cache and authorization incident,DevOps,Cache incident and access,mock,20,Fixing cache alone without origin authorization,study/workbook.md
+MD23,Queue and provider rate limits,DevOps,Retries and throttling,mock,20,Ignoring retry-after or issuing duplicate external effects,study/workbook.md
+MF21,Rolling forecast and pricing tradeoff,Finance / FP&A,Pricing and contribution,mock,22,Optimizing sales dollars while overlooking profit,study/workbook.md
+MF22,Tie accrual profit to cash,Finance / FP&A,Cash tie-out,mock,22,Assuming one sign error explains an unreconciled draft,study/workbook.md
+MF23,Audit a debt metric and communicate it,Finance / FP&A,Covenant forecast,mock,21,Treating a thin base-case pass as reliable headroom,study/workbook.md
+FIN-A,Finance diagnostic,Finance / FP&A,Independent readiness,diagnostic,55,Untied bridge or treating unsettled items as cash,study/diagnostics/finance.md
+FIN-B,Finance diagnostic,Finance / FP&A,Independent readiness,diagnostic,55,Untied bridge or treating unsettled items as cash,study/diagnostics/finance.md
+FIN-C,Finance diagnostic,Finance / FP&A,Independent readiness,diagnostic,55,Untied bridge or treating unsettled items as cash,study/diagnostics/finance.md
+TECH-A,Technical diagnostic,Coding / DevOps,Independent readiness,diagnostic,55,Missed edge case or unsafe deployment decision,study/diagnostics/technical.md
+TECH-B,Technical diagnostic,Coding / DevOps,Independent readiness,diagnostic,55,Missed edge case or unsafe deployment decision,study/diagnostics/technical.md
+TECH-C,Technical diagnostic,Coding / DevOps,Independent readiness,diagnostic,55,Missed edge case or unsafe deployment decision,study/diagnostics/technical.md
+GEN-A,Generalist readiness,Generalist,Independent readiness,diagnostic,20,Material unsupported claim or missed source condition,study/diagnostics/generalist.md
+GEN-B,Generalist readiness,Generalist,Independent readiness,diagnostic,20,Material unsupported claim or missed source condition,study/diagnostics/generalist.md

@@ -7,6 +7,8 @@ import subprocess
 import sys
 from tempfile import TemporaryDirectory
 
+from verify_work_order import verify_work_order
+
 ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -81,3 +83,4 @@ if __name__ == "__main__":
     verify_roles()
     verify_study()
     verify_boatable()
+    verify_work_order()

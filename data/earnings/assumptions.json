@@ -1,0 +1,164 @@
+{
+  "currency": "USD",
+  "notes": "Fictional stress cases, selected for comparison only. All modeled paid tasks are assumed accepted and cash clears after the hypothetical lag. No fees or taxes modeled.",
+  "scenarios": [
+    {
+      "name": "No work available",
+      "days": {
+        "assessment": 4,
+        "approval": null,
+        "first_available": null,
+        "first_completed": null
+      },
+      "time_blocks": [
+        {
+          "category": "study",
+          "from_day": 1,
+          "through_day": 3,
+          "hours_per_day": 1.5
+        },
+        {
+          "category": "qualification",
+          "from_day": 4,
+          "through_day": 4,
+          "hours_per_day": 1.25
+        },
+        {
+          "category": "queue",
+          "from_day": 5,
+          "through_day": 30,
+          "hours_per_day": 0.1
+        }
+      ]
+    },
+    {
+      "name": "Earlier start",
+      "days": {
+        "assessment": 4,
+        "approval": 7,
+        "first_available": 8,
+        "first_completed": 8
+      },
+      "time_blocks": [
+        {
+          "category": "study",
+          "from_day": 1,
+          "through_day": 3,
+          "hours_per_day": 1.5
+        },
+        {
+          "category": "qualification",
+          "from_day": 4,
+          "through_day": 4,
+          "hours_per_day": 1.25
+        },
+        {
+          "category": "onboarding",
+          "from_day": 7,
+          "through_day": 7,
+          "hours_per_day": 0.5
+        },
+        {
+          "category": "queue",
+          "from_day": 7,
+          "through_day": 30,
+          "hours_per_day": 0.1
+        },
+        {
+          "category": "paid_task",
+          "from_day": 8,
+          "through_day": 30,
+          "hours_per_day": 1,
+          "rate": 45,
+          "cash_lag_days": 7
+        }
+      ]
+    },
+    {
+      "name": "Later specialist start",
+      "days": {
+        "assessment": 8,
+        "approval": 12,
+        "first_available": 15,
+        "first_completed": 15
+      },
+      "time_blocks": [
+        {
+          "category": "study",
+          "from_day": 1,
+          "through_day": 7,
+          "hours_per_day": 1.5
+        },
+        {
+          "category": "qualification",
+          "from_day": 8,
+          "through_day": 8,
+          "hours_per_day": 1.5
+        },
+        {
+          "category": "onboarding",
+          "from_day": 12,
+          "through_day": 12,
+          "hours_per_day": 0.5
+        },
+        {
+          "category": "queue",
+          "from_day": 12,
+          "through_day": 30,
+          "hours_per_day": 0.1
+        },
+        {
+          "category": "paid_task",
+          "from_day": 15,
+          "through_day": 30,
+          "hours_per_day": 1,
+          "rate": 75,
+          "cash_lag_days": 7
+        }
+      ]
+    },
+    {
+      "name": "Later specialist delayed four more days",
+      "days": {
+        "assessment": 8,
+        "approval": 12,
+        "first_available": 19,
+        "first_completed": 19
+      },
+      "time_blocks": [
+        {
+          "category": "study",
+          "from_day": 1,
+          "through_day": 7,
+          "hours_per_day": 1.5
+        },
+        {
+          "category": "qualification",
+          "from_day": 8,
+          "through_day": 8,
+          "hours_per_day": 1.5
+        },
+        {
+          "category": "onboarding",
+          "from_day": 12,
+          "through_day": 12,
+          "hours_per_day": 0.5
+        },
+        {
+          "category": "queue",
+          "from_day": 12,
+          "through_day": 30,
+          "hours_per_day": 0.1
+        },
+        {
+          "category": "paid_task",
+          "from_day": 19,
+          "through_day": 30,
+          "hours_per_day": 1,
+          "rate": 75,
+          "cash_lag_days": 7
+        }
+      ]
+    }
+  ]
+}

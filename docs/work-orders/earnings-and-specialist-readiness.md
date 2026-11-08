@@ -2,9 +2,15 @@
 
 **Owner** Product Pat  
 **Prepared** November 7, 2026  
-**Status** Ready to execute  
+**Status** Executed · readiness and account choices await Patrick  
 **Repository** [NORA-BITSY/dataannotation-workbench](https://github.com/NORA-BITSY/dataannotation-workbench)  
 **Starting commit** `5544eee024dc959a6001e6790e36c56374786a81`
+
+## Execution results
+
+[Apply-first decision](../roles/application-decision-2026-11-07.md) · [Source and route recheck](../research/route-and-pay-recheck-2026-11-07.md) · [Earnings model](../research/earnings-model.md) · [Diagnostics and labs](../../study/README.md) · [Assessment-day toolkit](../../study/toolkit/assessment-day.md)
+
+The board comparison matched 133 roles and the 11 selected Apply routes. Eight original diagnostic forms, two work-sample labs, an offline practice timer and 14/30-day earnings scenarios were added. The live account choices required sign-in, so the routing recommendation is conditional. Unaided scores and actual assignment economics await Patrick's observations.
 
 ## Decision this work order must produce
 
