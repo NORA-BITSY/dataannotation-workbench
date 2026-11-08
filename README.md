@@ -12,6 +12,7 @@ A private research and practice workspace for understanding DataAnnotation.tech,
 | Take an original practice assessment | [Practice workbook](study/workbook.md) |
 | Grade a completed practice run | [Separate answer key](study/answer-key.md) |
 | See how reference answers and rubrics become an executable evaluation | [Boatable synthetic example](examples/boatable/) |
+| See the next research and study build | [Earnings and specialist readiness work order](docs/work-orders/earnings-and-specialist-readiness.md) |
 | Audit a claim or revisit the research design | [Source ledger](docs/research/source-ledger.md) · [Work orders](docs/work-orders/) |
 
 The study pack has **76 standalone drills, eight timed mocks, and 24 recall cards**. The mocks contain another 24 scored tasks. Generalist, Coding, DevOps and Finance/FP&A each have two mocks. Six additional drills sample Data Science and ML evaluation. Open the answer key after attempting the exercise.
@@ -22,7 +23,7 @@ The study pack has **76 standalone drills, eight timed mocks, and 24 recall card
 - `docs/roles/` documents role requirements and application fit. `data/roles/` contains a dated machine-readable snapshot, its summary and the spreadsheet.
 - `study/` keeps learner-facing questions separate from solutions and scoring rubrics.
 - `examples/boatable/` includes twelve original fictional service-desk cases, clean held-out inputs, evaluator-only records, and a deterministic Python scorer.
-- `docs/work-orders/` preserves the scope and completion criteria for both research passes.
+- `docs/work-orders/` preserves the scope and completion criteria for completed and planned research passes.
 - `scripts/verify.py` checks the cross-file counts, exercise IDs and score totals, runs the practice Python examples, and regenerates the scorer outputs for byte comparison.
 
 ## Verify locally
