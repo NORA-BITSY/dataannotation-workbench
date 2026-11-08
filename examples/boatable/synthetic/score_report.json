@@ -1,0 +1,306 @@
+{
+  "additional_regression_checks": [
+    "forged evidence",
+    "omitted approved line",
+    "duplicate line",
+    "malformed response"
+  ],
+  "cases": 12,
+  "controls_caught": 12,
+  "dataset_version": "1.0",
+  "development": 6,
+  "heldout": 6,
+  "invalid_record_checks": [
+    "missing approval source",
+    "unrecognized instructions",
+    "duplicate source"
+  ],
+  "model_inference": "not_run",
+  "model_weight_updates": "not_run",
+  "per_case": [
+    {
+      "case_id": "C01",
+      "control": {
+        "arithmetic": true,
+        "authorization": false,
+        "coverage": true,
+        "decision": true,
+        "format": true,
+        "traceability": true
+      },
+      "control_response_id": "C01:1.0:control",
+      "intended_failure": "authorization",
+      "reference": {
+        "arithmetic": true,
+        "authorization": true,
+        "coverage": true,
+        "decision": true,
+        "format": true,
+        "traceability": true
+      },
+      "reference_response_id": "C01:1.0:reference",
+      "split": "development"
+    },
+    {
+      "case_id": "C02",
+      "control": {
+        "arithmetic": true,
+        "authorization": false,
+        "coverage": true,
+        "decision": true,
+        "format": true,
+        "traceability": true
+      },
+      "control_response_id": "C02:1.0:control",
+      "intended_failure": "authorization",
+      "reference": {
+        "arithmetic": true,
+        "authorization": true,
+        "coverage": true,
+        "decision": true,
+        "format": true,
+        "traceability": true
+      },
+      "reference_response_id": "C02:1.0:reference",
+      "split": "development"
+    },
+    {
+      "case_id": "C03",
+      "control": {
+        "arithmetic": true,
+        "authorization": false,
+        "coverage": true,
+        "decision": true,
+        "format": true,
+        "traceability": true
+      },
+      "control_response_id": "C03:1.0:control",
+      "intended_failure": "authorization",
+      "reference": {
+        "arithmetic": true,
+        "authorization": true,
+        "coverage": true,
+        "decision": true,
+        "format": true,
+        "traceability": true
+      },
+      "reference_response_id": "C03:1.0:reference",
+      "split": "heldout"
+    },
+    {
+      "case_id": "C04",
+      "control": {
+        "arithmetic": true,
+        "authorization": false,
+        "coverage": true,
+        "decision": true,
+        "format": true,
+        "traceability": true
+      },
+      "control_response_id": "C04:1.0:control",
+      "intended_failure": "authorization",
+      "reference": {
+        "arithmetic": true,
+        "authorization": true,
+        "coverage": true,
+        "decision": true,
+        "format": true,
+        "traceability": true
+      },
+      "reference_response_id": "C04:1.0:reference",
+      "split": "heldout"
+    },
+    {
+      "case_id": "Q01",
+      "control": {
+        "arithmetic": false,
+        "authorization": true,
+        "coverage": true,
+        "decision": true,
+        "format": true,
+        "traceability": true
+      },
+      "control_response_id": "Q01:1.0:control",
+      "intended_failure": "arithmetic",
+      "reference": {
+        "arithmetic": true,
+        "authorization": true,
+        "coverage": true,
+        "decision": true,
+        "format": true,
+        "traceability": true
+      },
+      "reference_response_id": "Q01:1.0:reference",
+      "split": "development"
+    },
+    {
+      "case_id": "Q02",
+      "control": {
+        "arithmetic": false,
+        "authorization": true,
+        "coverage": true,
+        "decision": true,
+        "format": true,
+        "traceability": true
+      },
+      "control_response_id": "Q02:1.0:control",
+      "intended_failure": "arithmetic",
+      "reference": {
+        "arithmetic": true,
+        "authorization": true,
+        "coverage": true,
+        "decision": true,
+        "format": true,
+        "traceability": true
+      },
+      "reference_response_id": "Q02:1.0:reference",
+      "split": "development"
+    },
+    {
+      "case_id": "Q03",
+      "control": {
+        "arithmetic": false,
+        "authorization": true,
+        "coverage": true,
+        "decision": true,
+        "format": true,
+        "traceability": true
+      },
+      "control_response_id": "Q03:1.0:control",
+      "intended_failure": "arithmetic",
+      "reference": {
+        "arithmetic": true,
+        "authorization": true,
+        "coverage": true,
+        "decision": true,
+        "format": true,
+        "traceability": true
+      },
+      "reference_response_id": "Q03:1.0:reference",
+      "split": "heldout"
+    },
+    {
+      "case_id": "Q04",
+      "control": {
+        "arithmetic": false,
+        "authorization": true,
+        "coverage": true,
+        "decision": true,
+        "format": true,
+        "traceability": true
+      },
+      "control_response_id": "Q04:1.0:control",
+      "intended_failure": "arithmetic",
+      "reference": {
+        "arithmetic": true,
+        "authorization": true,
+        "coverage": true,
+        "decision": true,
+        "format": true,
+        "traceability": true
+      },
+      "reference_response_id": "Q04:1.0:reference",
+      "split": "heldout"
+    },
+    {
+      "case_id": "S01",
+      "control": {
+        "arithmetic": true,
+        "authorization": true,
+        "coverage": true,
+        "decision": false,
+        "format": true,
+        "traceability": true
+      },
+      "control_response_id": "S01:1.0:control",
+      "intended_failure": "decision",
+      "reference": {
+        "arithmetic": true,
+        "authorization": true,
+        "coverage": true,
+        "decision": true,
+        "format": true,
+        "traceability": true
+      },
+      "reference_response_id": "S01:1.0:reference",
+      "split": "development"
+    },
+    {
+      "case_id": "S02",
+      "control": {
+        "arithmetic": true,
+        "authorization": true,
+        "coverage": true,
+        "decision": false,
+        "format": true,
+        "traceability": true
+      },
+      "control_response_id": "S02:1.0:control",
+      "intended_failure": "decision",
+      "reference": {
+        "arithmetic": true,
+        "authorization": true,
+        "coverage": true,
+        "decision": true,
+        "format": true,
+        "traceability": true
+      },
+      "reference_response_id": "S02:1.0:reference",
+      "split": "development"
+    },
+    {
+      "case_id": "S03",
+      "control": {
+        "arithmetic": true,
+        "authorization": true,
+        "coverage": true,
+        "decision": false,
+        "format": true,
+        "traceability": true
+      },
+      "control_response_id": "S03:1.0:control",
+      "intended_failure": "decision",
+      "reference": {
+        "arithmetic": true,
+        "authorization": true,
+        "coverage": true,
+        "decision": true,
+        "format": true,
+        "traceability": true
+      },
+      "reference_response_id": "S03:1.0:reference",
+      "split": "heldout"
+    },
+    {
+      "case_id": "S04",
+      "control": {
+        "arithmetic": true,
+        "authorization": true,
+        "coverage": true,
+        "decision": false,
+        "format": true,
+        "traceability": true
+      },
+      "control_response_id": "S04:1.0:control",
+      "intended_failure": "decision",
+      "reference": {
+        "arithmetic": true,
+        "authorization": true,
+        "coverage": true,
+        "decision": true,
+        "format": true,
+        "traceability": true
+      },
+      "reference_response_id": "S04:1.0:reference",
+      "split": "heldout"
+    }
+  ],
+  "pilot_ids": [
+    "C01",
+    "Q01",
+    "S01"
+  ],
+  "references_passing": 12,
+  "review_mode": "single_reviewer",
+  "run_id": "boatable-1.0-deterministic-controls"
+}
